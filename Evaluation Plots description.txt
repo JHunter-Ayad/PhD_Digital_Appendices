@@ -1,0 +1,24 @@
+Evaluation plots show the evaluation metric values of ENMeval models; dela-AICc, Average test AUC
+and average difference between training and testing AUC.The first two are metrics of model quality 
+while the third is a metric of model overfitting. Low delta-AICc and high average test-AUC indicate
+high quality models, while high average difference between training and test AUC indicates an 
+overfitted model. 
+
+Models with only linear response functions in general performed worse than those with linear and 
+quadratic or linear, quadratic and product response functions, but were less prone to overfitting than 
+models with linear, quadratic and hinge features. The best models based on delta AICc values were 
+those with linear and quadratic or linear quadratic and hinge response functions and regularization 
+multipliers between 0.05 and 5.
+
+However, based on the average test AUC metric, models with linear, quadratic and hinge feature 
+classes outperform those with only linear and quadratic feature classes for most values of the 
+regularization multiplier on all model runs. While optimal models identified by AICc and AUC metrics
+are often similar, they rarely match exaxtly. While the average difference between training and test
+AUC metric decreases with increasing values of the regularisation multiplier, it is low (below 0.1) 
+for all models except the most complex (LHQ with a regularization multiplier under 0.5), so no 
+candidate models are dramatically overfitted.
+
+
+However, as there is little difference in output metrics between many of the model iterations, it 
+must be noted that most model iterations produce qualitatively similar predictions in niche and 
+geographic space, and that differences are largely a matter of scaling and sensitivity.
