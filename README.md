@@ -3,7 +3,7 @@ Digital appendix materials from my PhD Thesis at the University of Otago
 
 This repository is the first digital appendix created to suplement my PhD thesis "Resources to Aid Decision-Making in Conservation Translocations" submitted to the University of Otago in November 2021.
 
-As these digital appendices are not intended to be stand alone, I intend to upload a pdf file of my thesis once it is accepted and finalised to provide further context for the repository content.
+As these digital appendices are not intended to be stand alone, a pdf of my completed thesis is also provided in an accompanying repository.
 
 This first appendix provides further details of the correlative habitat suitability model replicates that were averaged to generate the models presented in Chapter 4 of my thesis "Predictive Modelling: Relict Distribution Habitat Models".
 
